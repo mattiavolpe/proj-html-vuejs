@@ -1,0 +1,9 @@
+@use "./_variables.scss" as *;
+
+#statistics {
+  background: url("./../img/counter-1919x1101.jpg");
+  background-size: cover;
+  background-position: center top;
+  color: $lighter;
+  padding: 250px 0;
+}

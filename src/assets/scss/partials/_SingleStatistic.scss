@@ -1,0 +1,15 @@
+@use "./_variables.scss" as *;
+
+.single_statistic {
+
+  svg {
+    font-size: 3rem;
+    margin-right: 1rem;
+  }
+  
+  h3 {
+    color: $accent;
+    font-weight: 700;
+  }
+
+}
