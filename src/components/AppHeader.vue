@@ -1,10 +1,12 @@
 <script>
 import { menu } from "./../assets/data/headerMenu.js"
+import { socials } from "./../assets/data/socialIcons.js"
 export default {
   name: "AppHeader",
   data() {
     return {
       menu,
+      socials,
       activeMenu: 0,
     }
   }
@@ -26,10 +28,11 @@ export default {
           </li>
         </ul>
         <ul id="socials" class="d-flex ms-5">
-          <li>linkedin</li>
-          <li>instagram</li>
-          <li>facebook</li>
-          <li>twitter</li>
+          <li v-for="item in socials">
+            <a :href="item.ref">
+              <font-awesome-icon :icon="item.icon"/>
+            </a>
+          </li>
         </ul>
       </nav>
     </div>
