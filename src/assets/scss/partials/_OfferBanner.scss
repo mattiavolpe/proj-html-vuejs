@@ -8,10 +8,9 @@
   transform: translate(-50%, -62%);
   width: 100%;
   max-width: calc(100vw - min(10vw, 10rem));
-  height: 240px;
   background-color: $accent;
   margin-bottom: 0;
-  padding: 0 min(4vw, 4rem);
+  padding: 65px min(4vw, 4rem);
 
   .left_section {
     width: 48%;
