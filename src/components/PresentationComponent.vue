@@ -12,7 +12,7 @@ export default {
           <h2 class="text-start mb-4">
             Hey there, my name is John Doe. I'm the founder of the Brain Academy.
           </h2>
-          <img src="src/assets/img/sign.jpg" alt="Sign">
+          <img src="./../assets/img/sign.jpg" alt="Sign">
         </div>
         <div class="col-7">
           <p class="m-0">

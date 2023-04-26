@@ -12,6 +12,7 @@ import {
   faInstagram,
   faFacebookF,
   faTwitter,
+  faGithub,
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faSignal,
@@ -30,7 +31,7 @@ import {
   faThumbsUp,
   faImage,
 } from '@fortawesome/free-regular-svg-icons'
-library.add(faLinkedinIn, faInstagram, faFacebookF, faTwitter, faSignal, faListUl, faClock, faSuitcase, faRocket, faThumbsUp, faGear, faUserGroup, faClapperboard, faImage, faArrowLeft, faArrowRight, faStar)
+library.add(faLinkedinIn, faInstagram, faFacebookF, faTwitter, faSignal, faListUl, faClock, faSuitcase, faRocket, faThumbsUp, faGear, faUserGroup, faClapperboard, faImage, faArrowLeft, faArrowRight, faStar, faGithub)
 
 import App from './App.vue'
 

@@ -11,13 +11,6 @@ export default {
       courses,
     }
   },
-  // methods: {
-  //   getImageUrl(image) {
-  //     console.log(image);
-  //     console.log(new URL(`./../assets/img/${image}`, import.meta.url).href);
-  //     return new URL(`/../src/assets/img/${image}`, import.meta.url).href
-  //   }
-  // }
 }
 </script>
 

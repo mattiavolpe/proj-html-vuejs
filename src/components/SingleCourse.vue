@@ -3,7 +3,12 @@ export default {
   name: "SingleCourse",
   props: {
     item: Object,
-  }
+  },
+  methods: {
+    getImageUrl(image) {
+      return new URL(`/src/assets/img/${image}`, import.meta.url).href;
+    }
+  },
 }
 </script>
 
@@ -12,7 +17,7 @@ export default {
     <div v-if="item.special" class="special">SPECIAL</div>
     <div class="card border-0 h-100 rounded-0">
 
-      <img :src="`src/assets/img/${item.img}`" :alt="`${item.title} image`">
+      <img :src="getImageUrl(item.img)" :alt="`${item.title} image`">
 
       <div class="card-body pt-4 pb-0">
         <h5 class="m-0">{{ item.title }}</h5>

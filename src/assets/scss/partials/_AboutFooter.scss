@@ -1,0 +1,13 @@
+@use "./_variables.scss" as *;
+
+.about {
+
+  li:nth-child(even) {
+    margin: 0 0.5rem;
+  }
+
+  a {
+    color: $darker;
+  }
+
+}

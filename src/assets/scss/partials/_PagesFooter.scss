@@ -1,0 +1,14 @@
+@use "./_variables.scss" as *;
+
+.pages {
+
+  ul {
+    list-style: inside;
+  }
+
+  a {
+    color: $darker;
+    text-decoration: none;
+  }
+
+}

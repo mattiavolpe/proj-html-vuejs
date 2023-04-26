@@ -7,14 +7,17 @@ export default {
     activeReview: Number,
   },
   methods: {
-    getAvatarSource(index) {
+    getIndex(index) {
       if (index < 0) {
-        return `src/assets/img/${this.reviews[this.reviews.length - 1].img}`
+        return this.reviews.length - 1;
       } else if (index > this.reviews.length - 1) {
-        return `src/assets/img/${this.reviews[0].img}`
+        return 0;
       }
-      return `src/assets/img/${this.reviews[index].img}`
+      return index;
     },
+    getImageUrl(index) {
+      return new URL(`/src/assets/img/${this.reviews[index].img}`, import.meta.url).href;
+    }
   }
 }
 </script>
@@ -24,9 +27,9 @@ export default {
     <font-awesome-icon @click="$emit('lookForPrevReview')" class="ms-4 slider_arrow" icon="fa-solid fa-arrow-left"/>
 
     <div id="user_images_wrapper">
-      <img width="70" :src="getAvatarSource(activeReview - 1)" alt="Previous review avatar">
-      <img class="mx-3" width="100" :src="getAvatarSource(activeReview)" alt="Current review avatar">
-      <img width="70" :src="getAvatarSource(activeReview + 1)" alt="Next review avatar">
+      <img width="70" :src="getImageUrl(getIndex(activeReview - 1))" alt="Previous review avatar">
+      <img class="mx-3" width="100" :src="getImageUrl(getIndex(activeReview))" alt="Current review avatar">
+      <img width="70" :src="getImageUrl(getIndex(activeReview + 1))" alt="Next review avatar">
     </div>
     <!-- /#user_images_wrapper -->
     
