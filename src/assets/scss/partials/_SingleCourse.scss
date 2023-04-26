@@ -1,0 +1,14 @@
+@use "./_variables.scss" as *;
+
+.single_course {
+
+  span {
+    display: block;
+    color: $neutral;
+  }
+
+  svg {
+    color: $accent;
+  }
+  
+}

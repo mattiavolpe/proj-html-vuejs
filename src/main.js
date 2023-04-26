@@ -13,7 +13,14 @@ import {
   faFacebookF,
   faTwitter,
 } from '@fortawesome/free-brands-svg-icons'
-library.add(faLinkedinIn, faInstagram, faFacebookF, faTwitter)
+import {
+  faSignal,
+  faListUl,
+} from '@fortawesome/free-solid-svg-icons'
+import {
+  faClock,
+} from '@fortawesome/free-regular-svg-icons'
+library.add(faLinkedinIn, faInstagram, faFacebookF, faTwitter, faSignal, faListUl, faClock)
 
 import App from './App.vue'
 
