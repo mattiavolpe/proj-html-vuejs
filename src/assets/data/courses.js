@@ -7,6 +7,7 @@ export const courses = [
     lectures: 8,
     time: 6,
     special: true,
+    price: 59,
   },
   {
     img: "12345-1-370x200.png",
@@ -16,6 +17,7 @@ export const courses = [
     lectures: 8,
     time: 6,
     special: true,
+    price: 59,
   },
   {
     img: "photo-1491897554428-130a60dd4757-370x200.jpeg",
@@ -25,6 +27,7 @@ export const courses = [
     lectures: 6,
     time: 6,
     special: true,
+    price: 49,
   },
   {
     img: "photo-1416339134316-0e91dc9ded92-370x200.jpeg",
@@ -34,6 +37,7 @@ export const courses = [
     lectures: 6,
     time: 6,
     special: false,
+    price: 49,
   },
   {
     img: "cathryn-lavery-67852-unsplash-370x200.jpg",
@@ -43,6 +47,7 @@ export const courses = [
     lectures: 6,
     time: 6,
     special: false,
+    price: 49,
   },
   {
     img: "photo-1475452779376-caebfb988090-370x200.jpeg",
@@ -52,5 +57,6 @@ export const courses = [
     lectures: 6,
     time: 6,
     special: false,
+    price: 49,
   },
 ]

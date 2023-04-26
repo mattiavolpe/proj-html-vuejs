@@ -2,6 +2,15 @@
 
 .single_course {
 
+  .card:hover {
+    cursor: pointer;
+
+    .course_hover {
+      opacity: 1;
+    }
+
+  }
+
   .special {
     position: absolute;
     top: 12px;
@@ -11,6 +20,22 @@
     padding: 0.125rem 0.25rem;
     color: $lighter;
     background-color: $accent;
+  }
+
+  .course_hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 216.2px;
+    color: $lighter;
+    background-color: $darker-semitransparent;
+    font-weight: 900;
+    opacity: 0;
+    transition: opacity 0.2s;
   }
 
   .card-body {

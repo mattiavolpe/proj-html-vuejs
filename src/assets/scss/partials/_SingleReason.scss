@@ -3,14 +3,31 @@
 .single_reason {
 
   .card {
-    border: 1px solid whitesmoke;
+    border: none;
     border-left: 4px solid $accent;
     box-shadow: 0 3px 8px -2px $neutral;
+    transition: background-color 0.2s, box-shadow 0.2s;
+
+    &:hover {
+      background-color: $accent;
+      box-shadow: 0 3px 8px -2px $accent;
+      cursor: pointer;
+
+      svg {
+        color: $lighter;
+      }
+
+      span {
+        color: $darker;
+      }
+
+    }
 
     svg {
       font-size: 3rem;
       padding-right: 1.5rem;
       color: $accent;
+      transition: color 0.2s;
     }
 
     h4 {
@@ -19,6 +36,7 @@
 
     span {
       color: $neutral;
+      transition: color 0.2s;
     }
 
   }
