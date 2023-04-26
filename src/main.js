@@ -16,11 +16,15 @@ import {
 import {
   faSignal,
   faListUl,
+  faSuitcase,
+  faRocket,
+  faGear,
 } from '@fortawesome/free-solid-svg-icons'
 import {
   faClock,
+  faThumbsUp,
 } from '@fortawesome/free-regular-svg-icons'
-library.add(faLinkedinIn, faInstagram, faFacebookF, faTwitter, faSignal, faListUl, faClock)
+library.add(faLinkedinIn, faInstagram, faFacebookF, faTwitter, faSignal, faListUl, faClock, faSuitcase, faRocket, faThumbsUp, faGear)
 
 import App from './App.vue'
 

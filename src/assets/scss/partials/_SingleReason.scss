@@ -1,0 +1,26 @@
+@use "./_variables.scss" as *;
+
+.single_reason {
+
+  .card {
+    border: 1px solid whitesmoke;
+    border-left: 4px solid $accent;
+    box-shadow: 0 3px 8px -2px $neutral;
+
+    svg {
+      font-size: 3rem;
+      padding-right: 1.5rem;
+      color: $accent;
+    }
+
+    h4 {
+      font-weight: 700;
+    }
+
+    span {
+      color: $neutral;
+    }
+
+  }
+
+}
