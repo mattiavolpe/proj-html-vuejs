@@ -1,0 +1,14 @@
+@use "./_variables.scss" as *;
+
+header {
+
+  img {
+    height: 45px;
+  }
+
+  a {
+    color: $darker;
+    font-weight: 700;
+  }
+
+}

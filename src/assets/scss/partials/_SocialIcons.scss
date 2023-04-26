@@ -1,0 +1,9 @@
+@use "./_variables.scss" as *;
+
+#socials {
+
+  li:nth-child(even) {
+    margin: 0 0.5rem;
+  }
+
+}

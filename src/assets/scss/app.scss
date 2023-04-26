@@ -1,4 +1,7 @@
 @use "node_modules/bootstrap/scss/bootstrap.scss";
+@use "./partials/_AppHeader.scss";
+@use "./partials/_MenuComponent.scss";
+@use "./partials/_SocialIcons.scss";
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700;900&display=swap');
 
 body {
