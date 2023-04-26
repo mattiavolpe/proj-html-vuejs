@@ -1,0 +1,9 @@
+@use "./_variables.scss" as *;
+
+#score_wrapper {
+  
+  svg {
+    color: $accent;
+  }
+
+}

@@ -21,13 +21,16 @@ import {
   faGear,
   faUserGroup,
   faClapperboard,
+  faArrowLeft,
+  faArrowRight,
+  faStar,
 } from '@fortawesome/free-solid-svg-icons'
 import {
   faClock,
   faThumbsUp,
   faImage,
 } from '@fortawesome/free-regular-svg-icons'
-library.add(faLinkedinIn, faInstagram, faFacebookF, faTwitter, faSignal, faListUl, faClock, faSuitcase, faRocket, faThumbsUp, faGear, faUserGroup, faClapperboard, faImage)
+library.add(faLinkedinIn, faInstagram, faFacebookF, faTwitter, faSignal, faListUl, faClock, faSuitcase, faRocket, faThumbsUp, faGear, faUserGroup, faClapperboard, faImage, faArrowLeft, faArrowRight, faStar)
 
 import App from './App.vue'
 
