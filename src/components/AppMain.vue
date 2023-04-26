@@ -25,7 +25,9 @@ export default {
 <template>
   <main>
     <JumbotronComponent></JumbotronComponent>
-    <OfferBanner></OfferBanner>
+    <div class="container position-relative">
+      <OfferBanner></OfferBanner>
+    </div>
     <PresentationComponent></PresentationComponent>
     <NewCourses></NewCourses>
     <BookComponent></BookComponent>

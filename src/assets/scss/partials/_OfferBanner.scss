@@ -1,0 +1,46 @@
+@use "./_variables.scss" as *;
+
+#offer_banner {
+  box-sizing: content-box;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -62%);
+  width: 100%;
+  max-width: calc(100vw - min(10vw, 10rem));
+  height: 240px;
+  background-color: $accent;
+  margin-bottom: 0;
+  padding: 0 min(4vw, 4rem);
+
+  .left_section {
+    width: 48%;
+
+    h3 {
+      color: $lighter;
+      font-weight: 700;
+
+      span {
+        color: $darker;
+      }
+
+    }
+
+    input {
+      width: 100%;
+      padding: 0.875rem 1.5rem;
+    }
+
+    button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      border: 0;
+      color: $lighter;
+      background-color: $dark;
+      padding: 0.875rem 1.5rem;
+    }
+
+  }
+  
+}

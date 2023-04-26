@@ -1,0 +1,20 @@
+@use "./_variables.scss" as *;
+
+.right_section {
+  width: 48%;
+
+  li:nth-child(even) {
+    margin: 0 1.5rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: $lighter;
+  }
+
+  h5 {
+    font-weight: 700;
+  }
+  
+}
