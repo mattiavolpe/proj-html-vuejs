@@ -9,16 +9,28 @@ import StatisticsComponent from "./StatisticsComponent.vue"
 import ReviewsComponent from "./ReviewsComponent.vue"
 export default {
   name: "AppMain",
+  components: {
+    JumbotronComponent,
+    OfferBanner,
+    PresentationComponent,
+    NewCourses,
+    BookComponent,
+    WhyCourses,
+    StatisticsComponent,
+    ReviewsComponent,
+  }
 }
 </script>
 
 <template>
-  <JumbotronComponent></JumbotronComponent>
-  <OfferBanner></OfferBanner>
-  <PresentationComponent></PresentationComponent>
-  <NewCourses></NewCourses>
-  <BookComponent></BookComponent>
-  <WhyCourses></WhyCourses>
-  <StatisticsComponent></StatisticsComponent>
-  <ReviewsComponent></ReviewsComponent>
+  <main>
+    <JumbotronComponent></JumbotronComponent>
+    <OfferBanner></OfferBanner>
+    <PresentationComponent></PresentationComponent>
+    <NewCourses></NewCourses>
+    <BookComponent></BookComponent>
+    <WhyCourses></WhyCourses>
+    <StatisticsComponent></StatisticsComponent>
+    <ReviewsComponent></ReviewsComponent>
+  </main>
 </template>

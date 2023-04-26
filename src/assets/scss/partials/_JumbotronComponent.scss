@@ -1,0 +1,27 @@
+@use "./_variables.scss" as *;
+
+#jumbo {
+  background: url("src/assets/img/slide-1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 835px;
+
+  .jumbo_content {
+    position: absolute;
+    width: 50%;
+    top: 37.5%;
+    right: 6%;
+    transform: translate(0, -50%);
+
+    h1 {
+      font-weight: 700;
+
+      span {
+        color: $accent;
+      }
+
+    }
+
+  }
+
+}
