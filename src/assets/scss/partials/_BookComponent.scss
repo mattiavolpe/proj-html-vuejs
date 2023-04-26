@@ -1,0 +1,19 @@
+@use "./_variables.scss" as *;
+
+#book {
+  background: url("./../img/slider_1-1917x607-1914x606.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 30px;
+
+  h2 {
+    font-weight: 700;
+    color: $accent;
+  }
+
+  em {
+    display: block;
+    font-size: 1.25rem;
+    color: $lighter;
+  }
+}
