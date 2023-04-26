@@ -2,13 +2,29 @@
 
 .single_course {
 
-  span {
-    display: block;
-    color: $neutral;
+  .special {
+    position: absolute;
+    top: 12px;
+    right: 36px;
+    z-index: 1;
+    font-size: 12px;
+    padding: 0.125rem 0.25rem;
+    color: $lighter;
+    background-color: $accent;
+  }
+
+  .card-body {
+    
+    span {
+      display: block;
+      color: $neutral;
+    }
+
   }
 
   svg {
     color: $accent;
+    margin: 0 0.5rem;
   }
   
 }

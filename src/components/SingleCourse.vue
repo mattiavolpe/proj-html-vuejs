@@ -8,7 +8,8 @@ export default {
 </script>
 
 <template>
-  <div class="col single_course">
+  <div class="single_course col position-relative">
+    <div v-if="item.special" class="special">SPECIAL</div>
     <div class="card border-0 h-100 rounded-0">
 
       <img :src="`src/assets/img/${item.img}`" :alt="`${item.title} image`">
@@ -24,17 +25,17 @@ export default {
       <div class="card-footer d-flex align-items-center justify-content-between bg-transparent border-0 py-3">
         <div class="level">
           <font-awesome-icon icon="fa-solid fa-signal"/>
-          {{ item.level }}
+          <span>{{ item.level }}</span>
         </div>
         <!-- /.level -->
         <div class="lectures">
           <font-awesome-icon icon="fa-solid fa-list-ul"/>
-          {{ item.lectures }} Lectures
+          <span>{{ item.lectures }} Lectures</span>
         </div>
         <!-- /.lectures -->
         <div class="time">
           <font-awesome-icon icon="fa-regular fa-clock"/>
-          {{ item.time }} Hours
+          <span>{{ item.time }} Hours</span>
         </div>
         <!-- /.time -->
       </div>
