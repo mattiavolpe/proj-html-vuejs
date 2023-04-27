@@ -1,9 +1,6 @@
 import { createApp } from 'vue'
 import './assets/scss/app.scss'
 
-// BOOTSTRAP
-import * as bootstrap from 'bootstrap'
-
 // FONTAWESOME
 import { library } from "@fortawesome/fontawesome-svg-core"
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
