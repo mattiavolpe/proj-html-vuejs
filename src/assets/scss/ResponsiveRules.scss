@@ -1,6 +1,6 @@
 @use "./partials/_variables.scss" as *;
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
   header {
     padding: 1.5rem 0 !important;
 
@@ -57,7 +57,21 @@
   main {
 
     #jumbo {
-      background-position: 30% center;
+      background-position: 27% center;
+
+      .jumbo_content {
+        right: 12px;
+        width: calc(100% - 24px);
+        padding: 1rem;
+        background-color: $lighter-semitransparent;
+        border-radius: 12px;
+
+        h1 {
+          font-size: 2.5rem;
+        }
+
+      }
+
     }
 
   }

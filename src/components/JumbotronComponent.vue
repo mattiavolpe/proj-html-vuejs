@@ -8,7 +8,7 @@ export default {
   <section id="jumbo">
     <div class="container h-100 position-relative">
       <div class="jumbo_content ms-auto">
-        <h1 class="display-4 mb-4">
+        <h1 class="mb-4">
           Start your Human <span class="accent">Revolution</span> today
         </h1>
         <p class="m-0">
