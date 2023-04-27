@@ -8,6 +8,8 @@
   font-size: 2rem;
   text-align: center;
   background-color: $lighter;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
 
   li:nth-child(even) {
     margin: 0.5rem 0;
