@@ -16,4 +16,14 @@
     font-size: 1.25rem;
     color: $lighter;
   }
+
+  .amazon {
+    transition: filter 0.2s, transform 0.2s;
+  }
+
+  .amazon:hover {
+    filter: brightness(1.3);
+    transform: scale(1.1);
+  }
+
 }

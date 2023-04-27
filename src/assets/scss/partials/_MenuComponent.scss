@@ -30,6 +30,16 @@
     height: 7px;
     background-color: $accent;
     clip-path: polygon(0 4px, calc(50% - 4px) 4px, 50% 0, calc(50% + 4px) 4px, 100% 4px, 100% 100%, 0 100%);
+    animation: fades-in 0.2s 1;
+  }
+
+  @keyframes fades-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
 
 }

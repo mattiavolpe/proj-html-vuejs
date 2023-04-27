@@ -15,7 +15,7 @@ export default {
   <ul id="menu" class="d-flex">
     <li v-for="(item, index) in menu" class="position-relative" @click="activeMenu = index">
       <div v-if="item.new" class="badge_new">NEW</div>
-      <a class="text-decoration-none" :href="item.ref">{{ item.name }}</a>
+      <a class="text-decoration-none" :class="activeMenu === index ? 'active' : ''" :href="item.ref">{{ item.name }}</a>
       <div v-if="index === activeMenu" class="active_menu"></div>
     </li>
   </ul>
