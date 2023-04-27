@@ -27,9 +27,9 @@ export default {
     <font-awesome-icon @click="$emit('lookForPrevReview')" class="ms-4 slider_arrow" icon="fa-solid fa-arrow-left"/>
 
     <div id="user_images_wrapper">
-      <img width="70" :src="getImageUrl(getIndex(activeReview - 1))" alt="Previous review avatar">
-      <img class="mx-3" width="100" :src="getImageUrl(getIndex(activeReview))" alt="Current review avatar">
-      <img width="70" :src="getImageUrl(getIndex(activeReview + 1))" alt="Next review avatar">
+      <img :src="getImageUrl(getIndex(activeReview - 1))" alt="Previous review avatar">
+      <img class="mx-3" :src="getImageUrl(getIndex(activeReview))" alt="Current review avatar">
+      <img :src="getImageUrl(getIndex(activeReview + 1))" alt="Next review avatar">
     </div>
     <!-- /#user_images_wrapper -->
     
