@@ -12,7 +12,7 @@ export default {
 
 <template>
   <ul id="socials" class="d-flex ms-5">
-    <li v-for="item in socials">
+    <li v-for="item in socials" :key="item.social + item.icon">
       <a :href="item.ref">
         <font-awesome-icon :icon="item.icon"/>
       </a>

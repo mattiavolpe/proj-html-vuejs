@@ -17,7 +17,7 @@ export default {
 <template>
   <div id="statistics">
     <div class="container d-flex align-items-center justify-content-between">
-      <SingleStatistic v-for="item in statistics" :item="item"></SingleStatistic>
+      <SingleStatistic v-for="item in statistics" :key="item.text + item.amount + item.icon" :item="item"></SingleStatistic>
     </div>
     <!-- /.container -->
   </div>

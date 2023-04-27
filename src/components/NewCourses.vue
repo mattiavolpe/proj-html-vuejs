@@ -19,7 +19,7 @@ export default {
     <div class="container text-center">
       <h2 class="section_title mb-5">New Courses</h2>
       <div class="row row-cols-3 g-5">
-        <SingleCourse v-for="item in courses" :item="item"></SingleCourse>
+        <SingleCourse v-for="item in courses" :key="item.title + item.img" :item="item"></SingleCourse>
       </div>
       <!-- /.row row-cols-3 -->
       <button class="rounded-5 mt-5">LOAD MORE</button>
