@@ -30,13 +30,15 @@ import {
   faWrench,
   faCartShopping,
   faMobileScreen,
+  faBars,
+  faXmark,
 } from '@fortawesome/free-solid-svg-icons'
 import {
   faClock,
   faThumbsUp,
   faImage,
 } from '@fortawesome/free-regular-svg-icons'
-library.add(faLinkedinIn, faInstagram, faFacebookF, faTwitter, faSignal, faListUl, faClock, faSuitcase, faRocket, faThumbsUp, faGear, faUserGroup, faClapperboard, faImage, faArrowLeft, faArrowRight, faStar, faGithub, faDisplay, faLifeRing, faWrench, faCartShopping, faMobileScreen)
+library.add(faLinkedinIn, faInstagram, faFacebookF, faTwitter, faSignal, faListUl, faClock, faSuitcase, faRocket, faThumbsUp, faGear, faUserGroup, faClapperboard, faImage, faArrowLeft, faArrowRight, faStar, faGithub, faDisplay, faLifeRing, faWrench, faCartShopping, faMobileScreen, faBars, faXmark)
 
 import App from './App.vue'
 createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app')
