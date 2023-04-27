@@ -1,0 +1,26 @@
+@use "./_variables.scss" as *;
+
+#book_widget {
+  position: absolute;
+  top: 10%;
+  right: 0;
+  padding: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  background-color: $lighter;
+
+  li:nth-child(even) {
+    margin: 0.5rem 0;
+  }
+
+  a {
+    color: $darker;
+    transition: color 0.2s;
+
+    &:hover {
+      color: $accent;
+    }
+
+  }
+
+}
