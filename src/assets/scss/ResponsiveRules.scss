@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 991px) {
   header {
-    padding: 1.5rem 0 !important;
+    padding: 1.5rem 0;
 
     .mobile_menu {
       display: block !important;
@@ -10,7 +10,7 @@
     }
 
     nav.opened {
-      position: fixed !important;
+      position: fixed;
       top: 0;
       right: 0;
       z-index: 2;
@@ -174,4 +174,29 @@
     }
   }
 
+  footer {
+
+    .col {
+      padding-bottom: 1rem;
+      border-bottom: 1px solid $darker;
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  footer {
+
+    .col:not(:last-child) {
+      padding-bottom: 1rem;
+      border-bottom: 1px solid $darker;
+    }
+
+    .col:last-child {
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+
+  }
 }

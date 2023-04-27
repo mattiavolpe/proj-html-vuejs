@@ -1,5 +1,4 @@
 @use "node_modules/bootstrap/scss/bootstrap.scss";
-@use "./ResponsiveRules.scss";
 @use "./partials/_variables.scss" as *;
 @use "./partials/_AppHeader.scss";
 @use "./partials/_MenuComponent.scss";
@@ -22,6 +21,7 @@
 @use "./partials/_AboutFooter.scss";
 @use "./partials/_PagesFooter.scss";
 @use "./partials/_BlogFooter.scss";
+@use "./ResponsiveRules.scss";
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700;900&display=swap');
 
 body {

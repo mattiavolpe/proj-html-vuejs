@@ -5,6 +5,8 @@ footer {
   background-color: $accent;
 
   .col {
+    padding-bottom: 0;
+    border-bottom: none;
 
     h5 {
       font-weight: 700;
