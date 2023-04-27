@@ -18,7 +18,7 @@ export default {
       <img class="w-25 me-3 flex-shrink-0" :src="getImageUrl(item.img)" alt="Blog article image">
       <div class="text">
         <h6>{{ item.title }}</h6>
-        <span>&Tilde; {{ item.date }}</span>
+        <span>- {{ item.date }}</span>
       </div>
       <!-- /.text -->
     </a>
