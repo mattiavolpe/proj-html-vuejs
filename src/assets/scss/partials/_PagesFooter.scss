@@ -9,6 +9,12 @@
   a {
     color: $darker;
     text-decoration: none;
+    transition: color 0.2s;
+
+    &:hover {
+      color: $lighter;
+    }
+    
   }
 
 }

@@ -8,6 +8,12 @@
 
   a {
     color: $darker;
+    transition: color 0.2s;
+
+    &:hover {
+      color: $lighter;
+    }
+    
   }
 
 }
