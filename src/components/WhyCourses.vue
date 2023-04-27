@@ -15,15 +15,15 @@ export default {
 </script>
 
 <template>
-  <div id="why_courses" class="py-5">
+  <section id="why_courses" class="py-5">
     <div class="container">
-      <h2 class="mb-5 text-center">Why my Courses?</h2>
+      <h2 class="section_title mb-5 text-center">Why my Courses?</h2>
       <div class="row row-cols-2 g-5">
         <SingleReason v-for="item in reasons" :item="item"></SingleReason>
       </div>
       <!-- /.row row-cols-3 -->
     </div>
     <!-- /.container -->
-  </div>
+  </section>
   <!-- /#new_courses -->
 </template>

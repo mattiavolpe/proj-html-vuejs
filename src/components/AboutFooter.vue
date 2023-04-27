@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <div class="about col">
+  <section class="about col">
     <h5>ABOUT</h5>
     <p>
       MasterStudy is Education WordPress theme featured by Learning Management System (LMS) for online education.
@@ -24,6 +24,6 @@ export default {
         </a>
       </li>
     </ul>
-  </div>
+  </section>
   <!-- /.col -->
 </template>

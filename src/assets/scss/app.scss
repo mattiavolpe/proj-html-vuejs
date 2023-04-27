@@ -10,7 +10,6 @@
 @use "./partials/_NewCourses.scss";
 @use "./partials/_SingleCourse.scss";
 @use "./partials/_BookComponent.scss";
-@use "./partials/_WhyCourses.scss";
 @use "./partials/_SingleReason.scss";
 @use "./partials/_StatisticsComponent.scss";
 @use "./partials/_SingleStatistic.scss";
@@ -32,4 +31,8 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.section_title {
+  font-weight: 700;
 }

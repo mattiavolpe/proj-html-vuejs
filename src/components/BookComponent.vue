@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <div id="book">
+  <section id="book">
     <div class="container h-100 d-flex align-items-center">
       <div class="w-50 text-center">
         <h2 class="m-0">Get My Exclusive Investing Book for just &dollar;19.50</h2>
@@ -17,6 +17,6 @@ export default {
       <img class="align-self-end w-50" src="./../assets/img/book.png" alt="Masterstudy Book Template image">
     </div>
     <!-- /.container -->
-  </div>
+  </section>
   <!-- /#book -->
 </template>

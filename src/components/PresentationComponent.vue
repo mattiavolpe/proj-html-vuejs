@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <div id="presentation" class="position-relative">
+  <section id="presentation" class="position-relative">
     <div class="container h-100">
       <div class="row h-100 align-items-center justify-content-between">
         <div class="col-4 text-center">
@@ -22,6 +22,6 @@ export default {
       </div>
     </div>
     <!-- /.container -->
-  </div>
+  </section>
   <!-- /#presentation -->
 </template>

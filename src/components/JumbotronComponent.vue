@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <div id="jumbo">
+  <section id="jumbo">
     <div class="container h-100 position-relative">
       <div class="jumbo_content ms-auto">
         <h1 class="display-4 mb-4">
@@ -17,5 +17,5 @@ export default {
       </div>
     </div>
     <!-- /.container -->
-  </div>
+  </section>
 </template>

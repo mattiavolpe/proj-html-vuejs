@@ -34,5 +34,4 @@ import {
 library.add(faLinkedinIn, faInstagram, faFacebookF, faTwitter, faSignal, faListUl, faClock, faSuitcase, faRocket, faThumbsUp, faGear, faUserGroup, faClapperboard, faImage, faArrowLeft, faArrowRight, faStar, faGithub)
 
 import App from './App.vue'
-
 createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app')
