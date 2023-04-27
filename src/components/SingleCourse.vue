@@ -13,13 +13,15 @@ export default {
 </script>
 
 <template>
-  <div class="single_course col position-relative">
-    <div v-if="item.special" class="special">SPECIAL</div>
-    <div class="card border-0 h-100 rounded-0 position-relative">
-
-      <img :src="getImageUrl(item.img)" :alt="`${item.title} image`">
-      <div class="course_hover">
-        <h3>&dollar;{{ item.price }}</h3>
+  <div class="single_course col">
+    <div class="card border-0 h-100 rounded-0">
+      
+      <div class="course_image_wrapper position-relative">
+        <img class="w-100" :src="getImageUrl(item.img)" :alt="`${item.title} image`">
+        <div class="course_hover">
+          <h3>&dollar;{{ item.price }}</h3>
+        </div>
+        <div v-if="item.special" class="special">SPECIAL</div>
       </div>
       <!-- /.course_hover -->
 

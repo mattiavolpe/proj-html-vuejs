@@ -18,7 +18,7 @@ export default {
   <section id="new_courses" class="py-5">
     <div class="container text-center">
       <h2 class="section_title mb-5">New Courses</h2>
-      <div class="row row-cols-3 g-5">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
         <SingleCourse v-for="item in courses" :key="item.title + item.img" :item="item"></SingleCourse>
       </div>
       <!-- /.row row-cols-3 -->
