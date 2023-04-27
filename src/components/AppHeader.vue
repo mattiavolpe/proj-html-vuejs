@@ -9,7 +9,7 @@ export default {
   },
   data() {
     return {
-      menuVisible: false,
+      mobileMenuVisible: false,
     }
   },
   methods: {
@@ -21,17 +21,17 @@ export default {
 </script>
 
 <template>
-  <header class="bg-white py-5">
+  <header class="bg-white position-sticky top-0">
     <div class="container d-flex justify-content-between align-items-center position-relative">
       <a @click="reloadPage()" id="logo">
         <img src="./../assets/img/MasterStudy-1.svg" alt="Master Study logo">
       </a>
       <!-- /#logo -->
-      <nav :class="menuVisible ? 'opened' : ''" class="d-flex align-items-center">
-        <MenuComponent v-if="menuVisible"></MenuComponent>
-        <SocialIcons v-if="menuVisible"></SocialIcons>
-        <font-awesome-icon v-if="!menuVisible" icon="fa-solid fa-bars" class="mobile_menu d-none" @click="menuVisible = !menuVisible"/>
-        <font-awesome-icon v-if="menuVisible" icon="fa-solid fa-xmark" class="mobile_menu d-none" @click="menuVisible = !menuVisible"/>
+      <nav :class="mobileMenuVisible ? 'opened' : ''" class="d-flex align-items-center">
+        <MenuComponent :class="mobileMenuVisible ? 'menu_visible' : ''"></MenuComponent>
+        <SocialIcons :class="mobileMenuVisible ? 'menu_visible' : ''"></SocialIcons>
+        <font-awesome-icon v-if="!mobileMenuVisible" icon="fa-solid fa-bars" class="mobile_menu d-none" @click="mobileMenuVisible = !mobileMenuVisible"/>
+        <font-awesome-icon v-if="mobileMenuVisible" icon="fa-solid fa-xmark" class="mobile_menu d-none" @click="mobileMenuVisible = !mobileMenuVisible"/>
       </nav>
     </div>
     <!-- /.container -->

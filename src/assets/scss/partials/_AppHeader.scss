@@ -1,6 +1,8 @@
 @use "./_variables.scss" as *;
 
 header {
+  padding: 3rem 0;
+  z-index: 3;
 
   #logo {
     cursor: pointer;
