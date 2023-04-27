@@ -18,4 +18,10 @@
     font-weight: 700;
   }
   
+  &.offer_over {
+    font-size: 4rem;
+    font-weight: 700;
+    color: $lighter;
+  }
+
 }
