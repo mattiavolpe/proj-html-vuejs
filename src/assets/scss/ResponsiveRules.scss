@@ -74,6 +74,32 @@
 
     }
 
+    #offer_banner {
+      flex-direction: column;
+
+      .left_section {
+        width: 100%;
+      }
+
+      .right_section {
+        width: 100%;
+
+        li {
+          margin: 1rem 0.35rem 0;
+        }
+
+        h2 {
+          font-size: 2rem;
+        }
+
+        h5 {
+          font-size: 1rem;
+        }
+
+      }
+
+    }
+
   }
 
 }
