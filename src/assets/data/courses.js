@@ -30,6 +30,16 @@ export const courses = [
     price: 49,
   },
   {
+    img: "437398_46c3_10.jpg",
+    title: "Build Responsive Real-World Websites with HTML and CSS",
+    category: "Web Development",
+    level: "All",
+    lectures: 10,
+    time: 37,
+    special: true,
+    price: 85,
+  },
+  {
     img: "photo-1416339134316-0e91dc9ded92-370x200.jpeg",
     title: "Design Instruments for Communication",
     category: "Communication",
@@ -48,6 +58,16 @@ export const courses = [
     time: 6,
     special: false,
     price: 49,
+  },
+  {
+    img: "3594210_f019_3.jpg",
+    title: "Electronic Music Production with Ableton Live",
+    category: "Electronic",
+    level: "All",
+    lectures: 4,
+    time: 12,
+    special: true,
+    price: 85,
   },
   {
     img: "photo-1475452779376-caebfb988090-370x200.jpeg",
