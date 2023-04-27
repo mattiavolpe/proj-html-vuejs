@@ -10,7 +10,7 @@ export default {
     <p>
       MasterStudy is Education WordPress theme featured by Learning Management System (LMS) for online education.
       <br>
-      Developed by Mattia Volpe.
+      Developed by &copy; Mattia Volpe - 2023.
     </p>
     <ul class="d-flex align-items-center">
       <li>
