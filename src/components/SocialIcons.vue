@@ -1,11 +1,8 @@
 <script>
-import { socials } from "./../assets/data/socialIcons.js"
 export default {
   name: "SocialIcons",
-  data() {
-    return {
-      socials,
-    }
+  props: {
+    socials: Array,
   },
 }
 </script>

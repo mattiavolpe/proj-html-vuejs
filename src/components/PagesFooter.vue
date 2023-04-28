@@ -1,12 +1,9 @@
 <script>
-import { pages } from "./../assets/data/pages.js"
 export default {
   name: "PagesFooter",
-  data() {
-    return {
-      pages,
-    }
-  },
+  props: {
+    pages: Array,
+  }
 }
 </script>
 

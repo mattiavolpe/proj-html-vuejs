@@ -1,10 +1,11 @@
 <script>
-import { menu } from "./../assets/data/headerMenu.js"
 export default {
   name: "MenuComponent",
+  props: {
+    menu: Array,
+  },
   data() {
     return {
-      menu,
       activeMenu: 0,
     }
   }

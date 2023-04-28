@@ -1,4 +1,6 @@
 <script>
+import { menu } from "./../assets/data/headerMenu.js"
+import { socials } from "./../assets/data/socialIcons.js"
 import MenuComponent from "./MenuComponent.vue"
 import SocialIcons from "./SocialIcons.vue"
 export default {
@@ -9,6 +11,8 @@ export default {
   },
   data() {
     return {
+      menu,
+      socials,
       mobileMenuVisible: false,
     }
   },
@@ -28,8 +32,8 @@ export default {
       </a>
       <!-- /#logo -->
       <nav :class="mobileMenuVisible ? 'opened' : ''" class="d-flex align-items-center">
-        <MenuComponent :class="mobileMenuVisible ? 'menu_visible' : ''"></MenuComponent>
-        <SocialIcons :class="mobileMenuVisible ? 'menu_visible' : ''"></SocialIcons>
+        <MenuComponent :class="mobileMenuVisible ? 'menu_visible' : ''" :menu="menu"></MenuComponent>
+        <SocialIcons :class="mobileMenuVisible ? 'menu_visible' : ''" :socials="socials"></SocialIcons>
         <font-awesome-icon v-if="!mobileMenuVisible" icon="fa-solid fa-bars" class="mobile_menu d-none" @click="mobileMenuVisible = !mobileMenuVisible"/>
         <font-awesome-icon v-if="mobileMenuVisible" icon="fa-solid fa-xmark" class="mobile_menu d-none" @click="mobileMenuVisible = !mobileMenuVisible"/>
       </nav>

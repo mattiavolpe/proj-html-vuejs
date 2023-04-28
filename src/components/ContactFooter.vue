@@ -1,11 +1,8 @@
 <script>
-import { contacts } from "./../assets/data/contacts.js"
 export default {
   name: "ContactFooter",
-  data() {
-    return {
-      contacts,
-    }
+  props: {
+    contacts: Object,
   },
 }
 </script>

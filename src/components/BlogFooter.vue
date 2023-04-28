@@ -1,15 +1,12 @@
 <script>
-import { blog } from "./../assets/data/blog.js"
 import ArticlePreview from "./ArticlePreview.vue"
 export default {
   name: "BlogFooter",
   components: {
     ArticlePreview,
   },
-  data() {
-    return {
-      blog,
-    }
+  props: {
+    blog: Array,
   },
 }
 </script>
