@@ -38,3 +38,25 @@ ul {
 .section_title {
   font-weight: 700;
 }
+
+/* #region Scrollbar */
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: $accent;
+  border-radius: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: $scrollbase;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: $scrollhover;
+  border-radius: 8px;
+}
+
+/* #endregion Scrollbar */
