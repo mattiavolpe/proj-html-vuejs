@@ -1,17 +1,17 @@
 export const menu = [
   {
     name: "Courses",
-    ref: "#",
+    ref: "#new_courses",
     new: false,
   },
   {
     name: "Course Formats",
-    ref: "#",
+    ref: "#why_courses",
     new: false,
   },
   {
     name: "Add Course",
-    ref: "#",
+    ref: "#new_courses",
     new: true,
   },
   {
