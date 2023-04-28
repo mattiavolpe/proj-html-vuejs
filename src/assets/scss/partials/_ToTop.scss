@@ -1,0 +1,21 @@
+@use "./_variables.scss" as *;
+
+#toTop {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  color: $accent;
+  background-color: $darker;
+  box-shadow: 0 5px 8px -3px $dark;
+
+  &:active {
+    transform: scale(0.9);
+  }
+
+}
